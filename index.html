@@ -15,22 +15,19 @@
         <h1>Guess the word</h1>
         <hr>
         <div class="content">
-            <div class="inputs">
-                <input type="text" disabled>
-                <input type="text" disabled>
-                <input type="text" disabled>
-                <input type="text" disabled>
-                <input type="text" disabled>
-                <input type="text" disabled>
-            </div>
+            <input type="text" class="typing-input" maxlength="1">
+            <div class="inputs"></div>
             <div class="details">
-                <p class="hint"><strong>Hint: </strong><span>Hint will soon here.</span></p>
+                <p class="hint"><strong>Hint: </strong><span></span></p>
                 <p class="guess-left"><strong>Remaining Guesses: </strong><span>10</span></p>
-                <p class="wrong-letter"><strong>Wrong Letters: </strong><span>a, b, c, d</span></p>
+                <p class="wrong-letter"><strong>Wrong Letters: </strong><span></span></p>
             </div>
             <button class="reset-btn">Reset Game</button>
         </div>
     </div>
+
+    <script src="js/word.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
