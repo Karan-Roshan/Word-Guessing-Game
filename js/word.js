@@ -12,7 +12,7 @@ const wordList = [
         hint: "A purpose or intention"
     },
     {
-        word: "venus",
+        word: "earth",
         hint: "Planet of our solar system"
     },
     {
@@ -20,7 +20,7 @@ const wordList = [
         hint: "A yellow precious metal"
     },
     {
-        word: "ebay",
+        word: "amazon",
         hint: "Online shopping site"
     },
     {
@@ -32,10 +32,6 @@ const wordList = [
         hint: "Related to programming"
     },
     {
-        word: "matrix",
-        hint: "Science fiction movie"
-    },
-    {
         word: "bugs",
         hint: "Related to programming"
     },
@@ -44,7 +40,7 @@ const wordList = [
         hint: "Epic science fiction film"
     },
     {
-        word: "gif",
+        word: "png",
         hint: "A file format for image"
     },
     {
@@ -68,10 +64,6 @@ const wordList = [
         hint: "Related to an indoor game"
     },
     {
-        word: "viber",
-        hint: "A social media app"
-    },
-    {
         word: "github",
         hint: "Code hosting platform"
     },
@@ -88,7 +80,7 @@ const wordList = [
         hint: "An electronic device"
     },
     {
-        word: "gpu",
+        word: "cpu",
         hint: "Computer component"
     },
     {
@@ -112,7 +104,7 @@ const wordList = [
         hint: "A relational database system"
     },
     {
-        word: "nepal",
+        word: "india",
         hint: "Developing country name"
     },
     {
