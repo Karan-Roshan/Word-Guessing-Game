@@ -43,6 +43,7 @@ body {
 }
 
 .wrapper .content {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,8 +54,11 @@ body {
 
 .content .typing-input {
     position: absolute;
-    z-index: +999;
-    opacity: 1;
+    top: 0px;
+    opacity: 0;
+    pointer-events: none;
+    width: 400px;
+    height: 75px;
 }
 
 input {
@@ -104,6 +108,7 @@ input {
 }
 
 .reset-btn:hover {
+    background-color: #019875;
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0, 184, 148, 0.45);
 }
