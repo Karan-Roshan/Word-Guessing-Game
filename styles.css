@@ -33,6 +33,10 @@ body {
     height: auto;
 }
 
+.wrapper {
+    position: relative;
+}
+
 .wrapper h1 {
     font-size: 40px;
     font-family: "Poppins", sans-serif;
@@ -43,7 +47,6 @@ body {
 }
 
 .wrapper .content {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,11 +57,11 @@ body {
 
 .content .typing-input {
     position: absolute;
-    top: 0px;
+    top: 250px;
     opacity: 0;
     pointer-events: none;
     width: 400px;
-    height: 75px;
+    height: 150px;
 }
 
 input {
